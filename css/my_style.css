@@ -1,9 +1,11 @@
 p.redtext{
-    color:#CD5C5C;
-    font-size:40px;
-    text-align: center;
-    text-indent:2em;
-    background-color: gray;
+    color:#d94848;
+    font-size: 40px;
+    text-align: left;
+    text-indent: 2em;
+    background-color:#11d12b;
+    border: 10px solid;
+    border-color:rgb(41, 143, 156) ;
 }
 
 .bluetext{
@@ -16,7 +18,15 @@ h1 {
 body{ 
     font-family: 'Noto Serif TC', sans-serif; 
 }
- 
+.bg-primary {
+    background-color: black !important;
+background-image: url(../assets/img/123.jpg);
+background-repeat: no-repeat;
+background-size: cover
+  }
+
+
+
  .expedu_icon{
     color:aquamarine
  }      
@@ -24,3 +34,26 @@ body{
     color:white;
     background-color: black;
  }
+ table.pptable{
+    width: 80%;
+    background-color: rgb(255, 153, 127);
+  }
+
+  table.pptable th{
+    text-align: center;
+    background-color: black;
+    border: 1px solid #2a5d44;
+  }
+
+  table.pptable td{
+    text-align: center;
+    border: 1px solid #2a5d44;
+  }
+
+  table.pptable tr:nth-child(even) {
+    background-color: yellow;
+  }
+
+  table.pptable tr:nth-child(odd) {
+    background-color: white;
+  }
