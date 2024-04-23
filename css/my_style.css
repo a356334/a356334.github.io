@@ -5,12 +5,20 @@
 .overflowtest{
   background-color: black;
   color: azure;
-  padding: 10px 20px;
+  padding: 10px ;
   border-radius: 15px;
   width: 75%;
   margin: 30px auto;
-  height: 250px;
-  overflow: scroll;
+  height: 175px;
+  
+}
+
+
+
+
+.darkbg{
+  background-color: bisque;
+  color: rgb(18, 27, 141);
 }
 
 div.redtext{
