@@ -1,10 +1,25 @@
+*{
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+}
+.overflowtest{
+  background-color: black;
+  color: azure;
+  padding: 10px 20px;
+  border-radius: 15px;
+  width: 75%;
+  margin: 30px auto;
+  height: 250px;
+  overflow: scroll;
+}
+
 div.redtext{
     padding: 50px 50px 50px 50px;
     color:#d94848;
     font-size: 40px;
     text-align: left;
     text-indent: 2em;
-    background-color:#1184d1;
+    background-color:#17d111;
     border: 10px solid;
     border-color:rgb(41, 143, 156) ;
     border-radius: 10px;
@@ -15,13 +30,15 @@ div.redtext{
 .bluetext{
     color:blue; 
 }
-h1 { 
-    font-family: 'Noto Serif TC', sans-serif; 
+body{ 
+  font-family: 'Noto Serif TC', sans-serif; 
 }
 
-body{ 
-    font-family: 'Noto Serif TC', sans-serif; 
+h1,h2,h3,h4,h5,h6,h1,h2,h3,h4,h5,h6{
+  font-family: 'Noto Sans TC',sans-serif;
 }
+
+
 .bg-primary {
     background-color: black !important;
 background-image: url(../assets/img/123.jpg);
