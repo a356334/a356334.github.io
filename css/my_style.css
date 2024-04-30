@@ -3,7 +3,7 @@
   line-height: 1.5em;
 }
 .overflowtest{
-  background-color: black;
+  background-color: hsl(0, 0%, 0%);
   color: azure;
   padding: 10px ;
   border-radius: 15px;
@@ -12,11 +12,18 @@
   height: 175px;
   
 }
-
-
-
+.darkbgg{
+  background-color: rgb(171, 167, 175);
+  color: rgb(15, 14, 14);
+}
 
 .darkbg{
+  background-color: rgb(185, 129, 238);
+  color: rgb(18, 27, 141);
+}
+
+
+.darkbg0{
   background-color: bisque;
   color: rgb(18, 27, 141);
 }
