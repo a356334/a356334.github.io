@@ -21,6 +21,21 @@
   color: rgb(18, 27, 141);
 }
 
+.darkbg1{
+  background-color: rgb(16, 218, 207);
+  color: rgb(231, 16, 27);
+}
+
+.darkbg2{
+  background-color: rgb(97, 214, 107);
+  color: rgb(16, 37, 231);
+}
+
+.darkbg3{
+  background-color: rgb(233, 231, 120);
+  color: rgb(16, 30, 231);
+}
+
 div.redtext{
     padding: 50px 50px 50px 50px;
     color:#d94848;
